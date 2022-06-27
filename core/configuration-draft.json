@@ -1,0 +1,45 @@
+{
+  "service_url" : "http://opengraph.net",
+  "service_url_1" : "https://opengraph.net",
+  "reserved_url" : "https://opengraph.net",
+  "create_endpoint" : "/create",
+  "endpoints": {
+    "create": "/create",
+    "check_key": "/check",
+    "get_limits": "/get-limit",
+    "validate": "/validate"
+  },
+  "dev_key" : "I1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJPRy1CQVNJQyIsImxfdHlwZSI6IlJMIiwiaWF0IjoxNjAwOTQxNjQ3LCJ3d3ciOiI3NS53cC5tYW51LnRlYW0iLCJyb2xlIjAwMDAifQ.JYnyoUUEPCCqu8_M2lmkNY1Ix2gxOl6_YpNmJZKGHY4",
+  "opts": [
+    "_logo_img",
+    "_lic_key",
+    "_soc_vk",
+    "_soc_fb",
+    "_soc_tw",
+    "_sizes",
+    "_manuals_generator",
+    "_title_enable",
+    "_default_color",
+    "_bg_opacity",
+    "_default_text_color",
+    "_soc_vk_text_coords",
+    "_soc_vk_logo_coords",
+    "_soc_fb_text_coords",
+    "_soc_fb_logo_coords",
+    "_soc_tw_text_coords",
+    "_soc_tw_logo_coords",
+    "_title_font_size",
+    "_title_font_family",
+    "_text_position",
+    "_verification",
+    "_template_type"
+  ],
+  "font_sizes": [0.75,1,1.25,1.5,1.75,2,2.5,2.75,3],
+  "fonts": ["Benne-Regular.ttf", "Roboto-Regular.ttf", "Gilroy-Regular.ttf", "Pacifico.ttf"],
+  "points": [
+    "update_admin_settings", "search_post", "upload_logo", "delete_logo", "hand_generate_for_post"
+  ],
+  "hiw": [
+    "Text"
+  ]
+}
