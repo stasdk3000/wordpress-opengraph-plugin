@@ -28,7 +28,7 @@ define( 'OGGWC_DOMAIN', 'oggwc' );
 define( 'OGGWC_PACK_ADMIN_URL', plugins_url( 'admin/'.OGGWC_DOMAIN.'/admin-settings', __FILE__ ) );
 define( 'OGGWC_META_VK', OGGWC_DOMAIN . '_meta_vk' );
 define( 'OGGWC_META_FB', OGGWC_DOMAIN . '_meta_fb' );
-
+define( 'OGGWC_PLUGIN_JSON', 'https://repo.manu.team/json/42000000010/thefile.json' );
 
 /**
  * Main class
@@ -72,7 +72,7 @@ class Oggwc_Pack {
         require dirname(__FILE__) . '/inc/plugin-update-checker/plugin-update-checker.php';
 
         $update_checker = Puc_v4_Factory::buildUpdateChecker(
-            'https://repo.manu.team/json/42000000010/thefile.json',
+            OGGWC_PLUGIN_JSON,
             __FILE__,
             OGGWC_DOMAIN
         );
